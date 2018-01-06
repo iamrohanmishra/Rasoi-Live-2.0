@@ -158,7 +158,9 @@ body {
 }
 
 .features-section {
-    background-color: black;
+    
+   background: rgba(0, 0, 0, 1);
+    
     padding-top: 40px;
     padding-bottom: 80px;
     text-align: center;
@@ -224,8 +226,8 @@ body {
 .feature-icon:hover {
     background-color: #fdba36;
     border-radius: 2%;
-    height: 6.625em;
-    width: 6.625em;
+    height: 5.625em;
+    width: 5.625em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,11 +431,12 @@ ul {
 
 .team-member {
     text-align: center;
-    padding-bottom: 60px;
+     padding: 36px 15px 45px;
 }
 
 .team-member-position {
     color: #747474;
+    
 }
 .team-member:hover {
     background-color: #ffffff;
